@@ -1,0 +1,15 @@
+[package]
+name = "send_product"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0xc60d34e397625b31418ebdf924c73603b9a06a45cc74858164955c286962a4b8'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
